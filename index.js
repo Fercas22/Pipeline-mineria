@@ -22,7 +22,7 @@ const animals = [
 ]
 
 app.get('/', (req, res) => {
-    res.send('Logramos crear nuestro primer pipeline con los servicios de AWS!!');
+    res.send('Se logro!! :p XD');
 });
 
 app.get('/api/animals', (req, res) => {
