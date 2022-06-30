@@ -7,7 +7,7 @@ phases:
       nodejs: 12
   pre_build:
     commands:
-      - npm insNtall
+      - npm install
       - echo Logging in to Amazon ECR...
       - aws --version
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
