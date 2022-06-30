@@ -22,7 +22,7 @@ const animals = [
 ]
 
 app.get('/', (req, res) => {
-    res.send('Welcome XD');
+    res.send('Nueva rama');
 });
 
 app.get('/api/animals', (req, res) => {
