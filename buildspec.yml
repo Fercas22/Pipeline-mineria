@@ -8,6 +8,10 @@ phases:
       - echo instaling
   pre_build:
     commands:
+      - echo Logging in to Docker Hub...
+      - DOCKER_USERNAME=fercas22
+      - DOCKER_PASSWORD=FER22NANDO
+      - docker login -u="${DOCKER_USERNAME}" -p="${DOCKER_PASSWORD}"
       - echo Installing source NPM dependencies...
       - npm install
       - aws --version
