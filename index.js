@@ -22,7 +22,7 @@ const animals = [
 ]
 
 app.get('/', (req, res) => {
-    res.send('Se logro!! :p XD');
+    res.send('Welcome XD');
 });
 
 app.get('/api/animals', (req, res) => {
